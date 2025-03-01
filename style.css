@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    height: 100vh;
+}
+
+section header {
+    z-index: 100;
+}
+
+section {
+    width: 100vw;
+    height: 65%;
+    /* border: 2px solid black;  */
+    background-image: url(Zomatobg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+
+.left {
+    /* border: 2px solid black; */
+    height: 50%;
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.right {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 40%;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+}
+
+.right ul li {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.Content {
+    /* border: 2px solid white; */
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Content h1 {
+    margin-top: 100px;
+    color: white;
+    font-size: 80px;
+    font-weight: 2000;
+}
+
+.Content p {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.search {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 10px;
+}
+
+.search input {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 50%;
+    outline: none;
+    border: none;
+}
+
+.search .text {
+    width: 250px;
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.search .text pre {
+    display: inline-block;
+}
+
+.search-icon {
+    /* border: 2px solid black;     */
+    padding-top: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.middle {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.first-image,
+.second-image {
+    width: 35%;
+    height: 262px;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+}
+
+.first-image {
+    background-image: url(first-image1.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#a {
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid black; */
+    margin-top: 184px;
+    background-color: white;
+    /* border-radius: inherit; */
+}
+
+.first-image #first-p {
+    font-size: 22px;
+    /* margin-top: 30px; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.first-image #second-p {
+    margin-left: 20px;
+}
+
+.second-image {
+    background-image: url(second-image.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b {
+    width: 100%;
+    height: 30%;
+    /* border: 2px solid black; */
+    margin-top: 184px;
+    background-color: white;
+    /* border-radius: 20px; */
+}
+
+.second-image #first-p {
+    font-size: 22px;
+    /* margin-top: 30px; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.second-image #second-p {
+    margin-left: 20px;
+}
+
+.first-image:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.second-image:hover {
+    transform: scale(1.05);
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+#details {
+    /* border: 2px solid yellow;     */
+    width: 100vw;
+    height: 300px;
+}
+
+#inside-details {
+    width: 70%;
+    height: 50%;
+    /* border: 2px solid green;  */
+    margin: 0 auto;
+}
+
+#details #p1 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#details #secondp {
+    width: 300px;
+    height: 60px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+    font-size: 18px;
+}
+
+.phones {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+}
+
+.images {
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+}
+
+.form {
+    width: 450px;
+    height: 400px;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.phones .images {
+    background-image: url(ce5bc038a8a2d4f8f24465c8826182af1726501431.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.form h2 {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.form p {
+    margin-top: 20px;
+}
+
+.radio1,
+.radio2 {
+    /* margin-left: 30px; */
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.radio2 {
+    margin-left: 40px;
+}
+
+.phones .input {
+    /* width: 70%; */
+    margin-top: 40px;
+}
+
+.input input {
+    height: 40px;
+    width: 300px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.input button {
+    height: 45px;
+    width: 120px;
+    font-size: 15px;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.store {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    width: 350px;
+}
+
+.store .play {
+    background-image: url(google-play.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50px;
+}
+
+.store .app {
+    background-image: url(app-store.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 50px;
+}
+
+.inside-form {
+    color: grey;
+}
+
+.List {
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.class1 {
+    width: 70vw;
+    height: 60px;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    /* padding: 10px; */
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px grey;
+    background-color: white;
+}
+
+.class1 p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+footer {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(248, 248, 248);
+}
+
+.footer {
+    /* border: 2px solid black; */
+    width: 80vw;
+    height: inherit;
+    margin-left: 200px;
+}
+
+.footer #list {
+    height: 60%;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h1 {
+    margin-left: 40px;
+}
+
+.footer #list ul {
+    list-style: none;
+}
+
+.footer #list ul li {
+    margin-top: 5px;
+}
+
+#first {
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#icon1 {
+    background-image: url(linkedin.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#icon2 {
+    background-image: url(instagram.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#icon3 {
+    background-image: url(twitter.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#icon4 {
+    background-image: url(youtube.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#icon5 {
+    background-image: url(facebook.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.playstore {
+    height: 40px;
+    width: 150px;
+    /* border: 2px solid black; */
+    background-image: url(app-store.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.appstore {
+    height: 40px;
+    width: 150px;
+    /* border: 2px solid black; */
+    background-image: url(google-play.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.footer ul li {
+    color: grey;
+}
+
+.footer ul li h3 {
+    color: black;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+form button {
+    border: none;
+    outline: none;
+}
